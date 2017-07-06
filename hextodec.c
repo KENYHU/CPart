@@ -46,5 +46,5 @@ int Mhextodec(char *input) {
 int main() {
     char hex[8] = "ffee";
     int dec = Mhextodec(hex);
-    printf("%d\n",dec);  // 结果 16772812
+    printf("%d\n",dec);  // 结果 65518
 }

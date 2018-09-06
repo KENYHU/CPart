@@ -16,7 +16,7 @@
 #define ListSize 100
 
 /**
- * typedef可以为一个数据类型起一个新的别名！ 此处，仅仅用DataType来代替int而已
+ * typedef可以为一个数据类型起一个新的别名！ 此处，仅仅用DataType来代替char*而已
  *
  * 为什么要进行起一个别名，因为书序表的数据类型可以为各种，用typedef修改后，可一改全改
  */

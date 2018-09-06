@@ -18,7 +18,7 @@
 /**
  * typedef可以为一个数据类型起一个新的别名！ 此处，仅仅用DataType来代替char*而已
  *
- * 为什么要进行起一个别名，因为书序表的数据类型可以为各种，用typedef修改后，可一改全改
+ * 为什么要进行起一个别名，因为顺序表的数据类型可以为各种，用typedef修改后，可一改全改
  */
 typedef char* DataType;
 
@@ -121,4 +121,7 @@ int main() {
     //删除第三个元素
     deleteList(listD,3);
     selectList(listD,0);
+
+    //释放malloc资源
+    free(listD);
 }

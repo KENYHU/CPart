@@ -5,3 +5,6 @@
 
 # hextodec.c
     此demo 可将十六进制字符 转 十进制数字
+    
+# sequenceList.c
+    此demo为顺序表基本运算示例
